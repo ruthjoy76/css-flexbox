@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  width: 900px;
+  height: 600x;
+  display: flex;
+  background: #FDEFD5;
+  border: 8px solid #FFFFFF;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  color: red;
+  font-size: 26px;
+  font-weight: bold;
+  background: #FFFFFF;
+  padding: 0.5em;
+}
+
+p {
+  color: blue;
+  font-size: 12px;
+  background: #FFFFFF;
+  padding: 0.5em;
+}
+
+
