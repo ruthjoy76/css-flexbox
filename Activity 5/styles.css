@@ -1,31 +1,31 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  display: flex;
   text-align: center;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
   justify-content: center;
-  padding-bottom: 32px;
+  text-align: center;
+  align-items: center;
+  gap: 2em;
 }
 
 img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap:  52px;
-
+  width: 90px;
+  height: auto;
+  margin-bottom: 1px;
 }
 
-
-  
-  
- 
-
-
-
-
-
+p {
+  color: black;
+  font-size: 15px;
+  padding: 2px;
+}

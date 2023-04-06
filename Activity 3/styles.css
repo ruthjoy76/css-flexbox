@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 
-.menu-container {
+.narrow-container {
   width: 900px;
   height: 600x;
   display: flex;
   background: #FDEFD5;
-  border: 8px solid #FFFFFF;
+  border: 8px solid black;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
 
-.logo {
+.narrow-container .logo {
   color: red;
   font-size: 26px;
   font-weight: bold;
@@ -23,11 +23,37 @@
   padding: 0.5em;
 }
 
-p {
+.narrow-container p {
   color: blue;
-  font-size: 12px;
+  font-size: 15px;
   background: #FFFFFF;
   padding: 0.5em;
+}
+
+.wide-container {
+  width: 900px;
+  height: 600x;
+  display: flex;
+  background: #FDEFD5;
+  border: 5px solid gray;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1px 0.5px;
+}
+
+.wide-container .logo {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  background: #FFFFFF;
+  padding: 0.5em;
+}
+
+.wide-container p {
+  color: blue;
+  font-size: 10px;
+  background: #FFFFFF;
+  padding: 0.3em;
 }
 
 
